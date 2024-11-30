@@ -27,13 +27,11 @@ function Stopwatch() {
 
     function stop() {
         setIsRunning(false);
-
     }
 
     function reset() {
         setElapsedTime(0);
         setIsRunning(false);
-
     }
 
     function formatTime() {
